@@ -1,0 +1,30 @@
+{
+  "id": 16,
+  "name": "Frosty Peak",
+  "moves": 28,
+  "targetScore": 2300,
+  "missLimit": 5,
+  "colors": [
+    "green",
+    "yellow",
+    "purple",
+    "orange",
+    "red"
+  ],
+  "specials": {
+    "types": [
+      "bomb",
+      "rainbow",
+      "lightning"
+    ],
+    "chance": 0.09
+  },
+  "layout": [
+    ["green","green","red","orange","orange","orange","orange","orange","orange","orange","green"],
+    ["green","ice:red","purple","orange","orange","orange","orange","green","orange","red"],
+    [".","red","green","orange","orange","orange","red","orange","purple","orange","."],
+    [".",".","stone","red","yellow","red","red","green",".","."],
+    [".",".",".","orange","orange","ice:red","yellow","stone",".",".","."],
+    [".",".",".","stone","purple","yellow","ice:green",".",".","."]
+  ]
+}

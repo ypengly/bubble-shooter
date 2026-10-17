@@ -1,0 +1,18 @@
+{
+  "id": 4,
+  "name": "Cloud Hopper",
+  "moves": 31,
+  "targetScore": 700,
+  "missLimit": 6,
+  "colors": [
+    "green",
+    "yellow",
+    "purple"
+  ],
+  "layout": [
+    ["green","green",".",".",".",".",".",".",".","purple","purple"],
+    ["green","green",".",".",".",".",".",".","yellow","purple"],
+    ["green","green","green","green",".",".",".","purple","yellow","purple","yellow"],
+    ["purple","green","green","green",".",".","purple","purple","green","purple"]
+  ]
+}

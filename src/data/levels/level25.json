@@ -1,0 +1,34 @@
+{
+  "id": 25,
+  "name": "Safe Cracker",
+  "moves": 25,
+  "targetScore": 4400,
+  "missLimit": 5,
+  "colors": [
+    "green",
+    "yellow",
+    "purple",
+    "orange",
+    "red",
+    "blue"
+  ],
+  "specials": {
+    "types": [
+      "bomb",
+      "rainbow",
+      "lightning",
+      "fire",
+      "freeze"
+    ],
+    "chance": 0.08
+  },
+  "layout": [
+    ["purple","purple","yellow","yellow","green","purple","purple","yellow","yellow","yellow","green"],
+    ["purple","purple","purple","yellow","green","blue","purple","yellow","green","purple"],
+    [".","purple","purple","yellow","green","ice:green","locked:blue","green","red","green","."],
+    [".","locked:purple","red","green","red","green","ice:blue","green","green","."],
+    [".",".","stone","purple","locked:red","red","yellow","red","red",".","."],
+    [".",".","stone","green","stone","yellow","red","red",".","."],
+    [".",".",".","purple","ice:green","red","orange","ice:red",".",".","."]
+  ]
+}

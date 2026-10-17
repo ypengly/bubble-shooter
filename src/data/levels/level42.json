@@ -1,0 +1,36 @@
+{
+  "id": 42,
+  "name": "Hex Maze",
+  "moves": 21,
+  "targetScore": 3750,
+  "missLimit": 5,
+  "colors": [
+    "red",
+    "blue",
+    "green",
+    "yellow",
+    "purple"
+  ],
+  "specials": {
+    "types": [
+      "bomb",
+      "rainbow",
+      "lightning",
+      "fire",
+      "freeze"
+    ],
+    "chance": 0.08
+  },
+  "layout": [
+    ["green","purple","blue","blue","blue","blue","blue","red","purple","purple","yellow"],
+    ["blue","locked:blue","stone","ice:blue","stone","stone","chain:green","green","green","ice:yellow"],
+    ["purple","ice:purple",".",".","chain:blue","red","locked:green","stone","blue","blue","."],
+    [".",".","red","stone","stone","red","green","blue",".","."],
+    ["purple","purple","green","yellow","blue","blue",".",".","chain:blue","green","stone"],
+    ["stone","green","chain:green","yellow",".",".","chain:yellow","ice:red","green","chain:purple"],
+    ["purple","purple",".",".","locked:yellow","ice:blue","stone","ice:blue","red","red","."],
+    [".",".","blue","blue","ice:yellow","purple","stone","stone",".","."],
+    ["ice:red","red","red","purple","purple","ice:purple",".",".","locked:red","red","yellow"],
+    ["stone","blue","locked:yellow","green",".",".","chain:purple","green","locked:red","red"]
+  ]
+}

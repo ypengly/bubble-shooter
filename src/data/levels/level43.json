@@ -1,0 +1,37 @@
+{
+  "id": 43,
+  "name": "Bubble Labyrinth",
+  "moves": 20,
+  "targetScore": 1250,
+  "missLimit": 5,
+  "colors": [
+    "green",
+    "yellow",
+    "purple",
+    "orange",
+    "red",
+    "blue"
+  ],
+  "specials": {
+    "types": [
+      "bomb",
+      "rainbow",
+      "lightning",
+      "fire",
+      "freeze"
+    ],
+    "chance": 0.08
+  },
+  "layout": [
+    ["orange","orange","purple","purple","green","red","red","red","red","blue","blue"],
+    ["orange","locked:purple","purple","red","ice:purple","purple","red","blue","locked:green","orange"],
+    ["orange","purple",".",".","green","blue","purple",".",".","ice:green","green"],
+    ["green","red",".","green","locked:green","green","orange",".","green","purple"],
+    ["red","red",".",".","chain:green","locked:yellow","locked:green",".",".","locked:green","blue"],
+    ["ice:green","green",".","stone","stone","chain:green","yellow",".","green","chain:blue"],
+    ["green","ice:green",".",".","green","stone","purple",".",".","green","yellow"],
+    ["yellow","green",".","stone","green","green","green",".","blue","purple"],
+    ["purple","ice:green",".",".","locked:yellow","red","stone",".",".","blue","locked:yellow"],
+    ["stone","locked:yellow",".","stone","yellow","yellow","locked:green",".","stone","stone"]
+  ]
+}

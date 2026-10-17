@@ -1,0 +1,30 @@
+{
+  "id": 18,
+  "name": "Snow Globe",
+  "moves": 27,
+  "targetScore": 4400,
+  "missLimit": 5,
+  "colors": [
+    "red",
+    "blue",
+    "green",
+    "yellow",
+    "purple"
+  ],
+  "specials": {
+    "types": [
+      "bomb",
+      "rainbow",
+      "lightning"
+    ],
+    "chance": 0.09
+  },
+  "layout": [
+    ["red","red","purple","purple","blue","blue","red","red","purple","green","yellow"],
+    ["purple","red","stone","red","stone","red","red","red","green","ice:green"],
+    ["purple","stone","yellow","green","blue","green","red","red","red","blue","red"],
+    ["purple","purple","yellow","blue","green","red","red","stone","blue","red"],
+    ["purple","green","green","ice:blue","stone","red","ice:red","purple","stone","blue","purple"],
+    ["green","green","green","yellow","green","red","blue","yellow","purple","purple"]
+  ]
+}

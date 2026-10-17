@@ -1,0 +1,34 @@
+{
+  "id": 26,
+  "name": "Chain Reaction",
+  "moves": 25,
+  "targetScore": 2900,
+  "missLimit": 5,
+  "colors": [
+    "purple",
+    "orange",
+    "red",
+    "blue",
+    "green",
+    "yellow"
+  ],
+  "specials": {
+    "types": [
+      "bomb",
+      "rainbow",
+      "lightning",
+      "fire",
+      "freeze"
+    ],
+    "chance": 0.08
+  },
+  "layout": [
+    ["purple","red","green","green","yellow","red","yellow","blue","orange","orange","orange"],
+    [".","ice:green","ice:purple","green","stone","yellow","stone","ice:blue","ice:red","."],
+    [".",".",".","purple","green","blue","chain:blue","stone",".",".","."],
+    [".",".",".","purple","locked:purple","chain:blue","blue",".",".","."],
+    [".",".",".","stone","purple","purple","stone","blue",".",".","."],
+    [".","ice:green","purple","blue","blue","ice:blue","blue","stone","chain:green","."],
+    ["green","yellow","locked:green","purple","locked:purple","purple","blue","red","green","purple","purple"]
+  ]
+}

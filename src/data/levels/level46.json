@@ -1,0 +1,37 @@
+{
+  "id": 46,
+  "name": "Spiral Sky",
+  "moves": 20,
+  "targetScore": 5050,
+  "missLimit": 5,
+  "colors": [
+    "green",
+    "yellow",
+    "purple",
+    "orange",
+    "red",
+    "blue"
+  ],
+  "specials": {
+    "types": [
+      "bomb",
+      "rainbow",
+      "lightning",
+      "fire",
+      "freeze"
+    ],
+    "chance": 0.08
+  },
+  "layout": [
+    ["green","blue","green","red","yellow","yellow","yellow","green","red","orange","green"],
+    ["locked:purple","red","locked:green","stone","chain:orange","orange","yellow","green","green","green"],
+    [".","locked:yellow","chain:yellow","orange","blue","blue","purple","yellow","green","ice:orange","."],
+    [".",".","yellow","orange","chain:orange","ice:purple","purple","yellow",".","."],
+    [".",".",".","chain:red","stone","orange","ice:orange","stone",".",".","."],
+    [".",".",".","stone","purple","orange","locked:orange",".",".","."],
+    [".",".","purple","chain:red","red","blue","yellow","blue","green",".","."],
+    ["ice:orange","stone","purple","yellow","locked:yellow","blue","ice:yellow","yellow","stone","green"],
+    ["purple","red","chain:yellow","stone","yellow","green","purple","green","green","green","green"],
+    ["blue","red","red","red","yellow","green","ice:green","red","green","ice:orange"]
+  ]
+}

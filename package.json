@@ -1,0 +1,23 @@
+{
+  "name": "bubble-shooter",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Bubble Shooter built with TypeScript, Phaser 3 and Vite",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "levels": "node tools/generate-levels.mjs",
+    "simulate": "tsc -p tsconfig.sim.json && node tools/simulate.mjs",
+    "test": "tsc -p tsconfig.sim.json && node tools/logic-test.cjs"
+  },
+  "dependencies": {
+    "phaser": "^3.80.1"
+  },
+  "devDependencies": {
+    "typescript": "~5.6.3",
+    "vite": "^5.4.10"
+  }
+}

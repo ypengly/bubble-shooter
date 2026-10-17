@@ -1,0 +1,36 @@
+{
+  "id": 40,
+  "name": "Polar Pop",
+  "moves": 21,
+  "targetScore": 1250,
+  "missLimit": 5,
+  "colors": [
+    "green",
+    "yellow",
+    "purple",
+    "orange",
+    "red",
+    "blue"
+  ],
+  "specials": {
+    "types": [
+      "bomb",
+      "rainbow",
+      "lightning",
+      "fire",
+      "freeze"
+    ],
+    "chance": 0.08
+  },
+  "layout": [
+    ["red","yellow","yellow","purple","purple","purple","red","red","red","red","yellow"],
+    ["orange","orange","ice:blue","yellow","yellow","orange","ice:yellow","yellow","red","locked:red"],
+    ["orange","locked:blue",".",".","locked:yellow","ice:yellow","yellow","yellow","ice:blue","red","."],
+    [".",".","ice:green","yellow","red","yellow","chain:yellow","ice:green",".","."],
+    ["locked:red","green","ice:orange","green","red","red",".",".","stone","chain:orange","orange"],
+    ["green","chain:green","red","stone",".",".","blue","purple","chain:orange","chain:blue"],
+    ["ice:green","chain:purple",".",".","red","ice:orange","red","locked:purple","orange","blue","."],
+    [".",".","green","purple","chain:red","locked:blue","chain:yellow","orange",".","."],
+    ["purple","stone","purple","yellow","purple","ice:purple",".",".","ice:purple","purple","orange"]
+  ]
+}

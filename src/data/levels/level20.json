@@ -1,0 +1,31 @@
+{
+  "id": 20,
+  "name": "Cold Snap",
+  "moves": 27,
+  "targetScore": 2700,
+  "missLimit": 5,
+  "colors": [
+    "purple",
+    "orange",
+    "red",
+    "blue",
+    "green"
+  ],
+  "specials": {
+    "types": [
+      "bomb",
+      "rainbow",
+      "lightning",
+      "fire"
+    ],
+    "chance": 0.08
+  },
+  "layout": [
+    ["blue","red","orange","red","green","green","orange","red","red","red","green"],
+    ["red","red","stone","purple","green","green","green","green","ice:red","stone"],
+    ["stone","red",".",".","purple","purple","green","orange","green","green","."],
+    [".",".","ice:blue","purple","purple","green","green","green",".","."],
+    ["green","red","blue","red","orange","green",".",".","ice:red","red","stone"],
+    ["red","blue","red","blue",".",".","green","red","red","stone"]
+  ]
+}

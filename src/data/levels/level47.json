@@ -1,0 +1,37 @@
+{
+  "id": 47,
+  "name": "Storm Front",
+  "moves": 19,
+  "targetScore": 4350,
+  "missLimit": 5,
+  "colors": [
+    "purple",
+    "orange",
+    "red",
+    "blue",
+    "green",
+    "yellow"
+  ],
+  "specials": {
+    "types": [
+      "bomb",
+      "rainbow",
+      "lightning",
+      "fire",
+      "freeze"
+    ],
+    "chance": 0.08
+  },
+  "layout": [
+    ["purple","purple","blue","green","green","green","purple","purple","purple","purple","orange"],
+    ["purple","ice:orange","blue","ice:blue","orange","stone","orange","yellow","purple","yellow"],
+    ["yellow","yellow","orange","orange","chain:blue","blue","stone","locked:purple","locked:orange","green","green"],
+    ["stone","yellow","yellow","green","blue","chain:orange","locked:orange","red","ice:green","blue"],
+    ["green","stone","blue","blue","green","orange","chain:red","red","ice:green","ice:blue","blue"],
+    ["yellow","red","blue","red","green","blue","blue","stone","yellow","chain:yellow"],
+    ["chain:yellow","yellow","orange","green","purple","green","green","chain:red","locked:red","purple","blue"],
+    ["green","orange","ice:green","purple","chain:purple","stone","green","ice:green","yellow","blue"],
+    ["blue","ice:blue","orange","orange","orange","blue","stone","yellow","ice:yellow","locked:orange","stone"],
+    ["purple","red","red","red","ice:orange","blue","purple","green","yellow","yellow"]
+  ]
+}

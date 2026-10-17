@@ -1,0 +1,32 @@
+{
+  "id": 23,
+  "name": "Vault Valley",
+  "moves": 26,
+  "targetScore": 4500,
+  "missLimit": 5,
+  "colors": [
+    "purple",
+    "orange",
+    "red",
+    "blue",
+    "green"
+  ],
+  "specials": {
+    "types": [
+      "bomb",
+      "rainbow",
+      "lightning",
+      "fire"
+    ],
+    "chance": 0.08
+  },
+  "layout": [
+    ["orange","purple","purple","orange","blue","orange","green","purple","purple","purple","blue"],
+    ["blue","locked:red","green","ice:green","blue","blue","green","green","purple","stone"],
+    ["blue","orange",".",".","blue","ice:blue","blue",".",".","green","orange"],
+    ["blue","orange",".","stone","green","ice:purple","purple",".","orange","orange"],
+    ["blue","blue",".",".","stone","purple","purple",".",".","locked:red","stone"],
+    ["blue","blue",".","stone","orange","purple","green",".","red","red"],
+    ["blue","blue",".",".","stone","locked:red","blue",".",".","red","red"]
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": 48,
+  "name": "Final Frontier",
+  "moves": 19,
+  "targetScore": 5150,
+  "missLimit": 5,
+  "colors": [
+    "red",
+    "blue",
+    "green",
+    "yellow",
+    "purple",
+    "orange"
+  ],
+  "specials": {
+    "types": [
+      "bomb",
+      "rainbow",
+      "lightning",
+      "fire",
+      "freeze"
+    ],
+    "chance": 0.08
+  },
+  "layout": [
+    [".",".",".","yellow","green","orange","green","orange",".",".","."],
+    [".","green","red","locked:yellow","green","locked:green","green","ice:red","green","."],
+    ["purple","yellow","chain:yellow","stone","red","locked:red","blue","red","locked:green","purple","ice:purple"],
+    ["stone","orange","yellow","orange","orange","green","red","locked:green","locked:purple","purple"],
+    ["orange","yellow","purple","ice:yellow","orange","green","red","ice:yellow","blue","green","yellow"],
+    ["stone","stone","purple","purple","ice:red","blue","red","ice:blue","stone","orange"],
+    ["locked:green","purple","locked:red","purple","stone","yellow","green","chain:purple","green","red","red"],
+    ["green","stone","purple","purple","yellow","blue","yellow","stone","ice:blue","orange"],
+    [".","orange","chain:orange","orange","ice:orange","yellow","yellow","yellow","chain:blue","ice:orange","."],
+    [".",".","purple","orange","ice:yellow","purple","locked:yellow","purple",".","."]
+  ]
+}

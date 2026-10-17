@@ -1,0 +1,37 @@
+{
+  "id": 44,
+  "name": "Gem Gauntlet",
+  "moves": 20,
+  "targetScore": 2650,
+  "missLimit": 5,
+  "colors": [
+    "purple",
+    "orange",
+    "red",
+    "blue",
+    "green",
+    "yellow"
+  ],
+  "specials": {
+    "types": [
+      "bomb",
+      "rainbow",
+      "lightning",
+      "fire",
+      "freeze"
+    ],
+    "chance": 0.08
+  },
+  "layout": [
+    ["purple","purple",".",".",".",".",".",".",".","red","red"],
+    ["purple","green",".",".",".",".",".",".","locked:red","red"],
+    ["purple","purple","red","chain:red",".",".",".","orange","red","blue","purple"],
+    ["purple","green","blue","blue",".",".","orange","locked:orange","stone","locked:orange"],
+    ["locked:purple","yellow","ice:orange","red","yellow","ice:orange","green","green","orange","orange","blue"],
+    ["ice:purple","ice:purple","purple","chain:yellow","yellow","orange","green","chain:orange","yellow","ice:green"],
+    ["chain:red","stone","ice:orange","orange","yellow","locked:orange","orange","orange","red","stone","yellow"],
+    ["locked:green","red","orange","blue","green","red","red","ice:green","ice:orange","yellow"],
+    ["green","green","ice:red","red","chain:yellow","green","stone","chain:red","stone","red","purple"],
+    ["red","red","chain:green","ice:yellow","blue","red","green","ice:red","blue","purple"]
+  ]
+}

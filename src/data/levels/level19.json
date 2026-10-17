@@ -1,0 +1,31 @@
+{
+  "id": 19,
+  "name": "Glacier Glide",
+  "moves": 27,
+  "targetScore": 4050,
+  "missLimit": 5,
+  "colors": [
+    "green",
+    "yellow",
+    "purple",
+    "orange",
+    "red"
+  ],
+  "specials": {
+    "types": [
+      "bomb",
+      "rainbow",
+      "lightning",
+      "fire"
+    ],
+    "chance": 0.09
+  },
+  "layout": [
+    [".",".",".","yellow","red","red","orange","orange",".",".","."],
+    [".","stone","orange","red","red","orange","orange","orange","orange","."],
+    ["orange","orange","stone","green","ice:red","ice:green","yellow","purple","purple","green","green"],
+    ["orange","orange","stone","orange","ice:green","green","yellow","purple","purple","green"],
+    [".","orange","orange","yellow","red","yellow","red","yellow","yellow","purple","."],
+    [".",".","yellow","orange","red","red","green","yellow",".","."]
+  ]
+}

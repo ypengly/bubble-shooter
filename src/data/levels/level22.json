@@ -1,0 +1,32 @@
+{
+  "id": 22,
+  "name": "Padlock Plaza",
+  "moves": 26,
+  "targetScore": 5150,
+  "missLimit": 5,
+  "colors": [
+    "green",
+    "yellow",
+    "purple",
+    "orange",
+    "red"
+  ],
+  "specials": {
+    "types": [
+      "bomb",
+      "rainbow",
+      "lightning",
+      "fire"
+    ],
+    "chance": 0.08
+  },
+  "layout": [
+    ["red","red","red","green","green","green","green","purple","orange","orange","red"],
+    ["red","red","locked:red","red","orange","red","orange","green","green","red"],
+    ["red","red",".",".","red","ice:orange","orange","ice:orange","locked:green","green","."],
+    [".",".","purple","purple","orange","orange","purple","purple",".","."],
+    ["red","red","red","purple","orange","orange",".",".","stone","purple","yellow"],
+    ["red","red","purple","purple",".",".","ice:red","yellow","stone","stone"],
+    ["yellow","green",".",".","purple","purple","purple","yellow","yellow","locked:green","."]
+  ]
+}

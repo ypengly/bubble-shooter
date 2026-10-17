@@ -1,0 +1,35 @@
+{
+  "id": 29,
+  "name": "Shackle Shore",
+  "moves": 24,
+  "targetScore": 3100,
+  "missLimit": 5,
+  "colors": [
+    "purple",
+    "orange",
+    "red",
+    "blue",
+    "green",
+    "yellow"
+  ],
+  "specials": {
+    "types": [
+      "bomb",
+      "rainbow",
+      "lightning",
+      "fire",
+      "freeze"
+    ],
+    "chance": 0.08
+  },
+  "layout": [
+    ["green","green","green","orange","orange","orange","purple","purple","green","blue","blue"],
+    ["locked:blue","red","red","yellow","yellow","yellow","chain:yellow","blue","green","blue"],
+    ["blue","chain:red","red","yellow","blue","yellow","yellow","ice:green","green","green","orange"],
+    ["red","red","locked:blue","blue","orange","red","red","green","purple","orange"],
+    ["orange","green","red","yellow","blue","orange","orange","ice:orange","green","red","red"],
+    ["red","locked:yellow","blue","locked:orange","orange","green","blue","red","red","red"],
+    ["yellow","ice:yellow","red","blue","orange","stone","stone","red","purple","ice:purple","green"],
+    ["stone","orange","red","stone","chain:orange","yellow","stone","blue","ice:purple","chain:green"]
+  ]
+}

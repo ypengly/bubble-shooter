@@ -1,0 +1,35 @@
+{
+  "id": 34,
+  "name": "Firestorm",
+  "moves": 23,
+  "targetScore": 4400,
+  "missLimit": 5,
+  "colors": [
+    "green",
+    "yellow",
+    "purple",
+    "orange",
+    "red",
+    "blue"
+  ],
+  "specials": {
+    "types": [
+      "bomb",
+      "rainbow",
+      "lightning",
+      "fire",
+      "freeze"
+    ],
+    "chance": 0.08
+  },
+  "layout": [
+    ["orange","yellow","yellow","red","red","red","yellow","green","green","green","green"],
+    ["orange","orange","purple","red","green","locked:yellow","stone","green","red","red"],
+    [".","ice:orange","ice:orange","blue","red","yellow","locked:yellow","red","ice:red","green","."],
+    [".","locked:orange","red","red","stone","orange","orange","ice:green","purple","."],
+    [".",".","red","red","blue","orange","locked:red","red","blue",".","."],
+    [".",".","chain:red","red","stone","orange","blue","purple",".","."],
+    [".",".",".","ice:red","green","chain:red","orange","locked:green",".",".","."],
+    [".",".",".","green","chain:blue","orange","orange",".",".","."]
+  ]
+}

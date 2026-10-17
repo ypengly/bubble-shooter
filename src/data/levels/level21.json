@@ -1,0 +1,31 @@
+{
+  "id": 21,
+  "name": "Lock & Key",
+  "moves": 27,
+  "targetScore": 6900,
+  "missLimit": 5,
+  "colors": [
+    "red",
+    "blue",
+    "green",
+    "yellow"
+  ],
+  "specials": {
+    "types": [
+      "bomb",
+      "rainbow",
+      "lightning",
+      "fire"
+    ],
+    "chance": 0.08
+  },
+  "layout": [
+    [".",".",".","blue","blue","green","yellow","yellow",".",".","."],
+    [".","red","stone","locked:blue","stone","ice:green","green","green","blue","."],
+    ["green","red","red","stone","yellow","green","green","green","blue","blue","ice:red"],
+    ["red","red","blue","yellow","yellow","yellow","ice:yellow","stone","blue","red"],
+    ["red","red","yellow","yellow","yellow","yellow","red","green","green","green","red"],
+    [".","locked:green","green","blue","yellow","stone","stone","green","green","."],
+    [".",".",".","blue","locked:blue","blue","green","yellow",".",".","."]
+  ]
+}

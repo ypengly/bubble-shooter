@@ -1,0 +1,37 @@
+{
+  "id": 45,
+  "name": "Tangle Tide",
+  "moves": 20,
+  "targetScore": 2600,
+  "missLimit": 5,
+  "colors": [
+    "red",
+    "blue",
+    "green",
+    "yellow",
+    "purple",
+    "orange"
+  ],
+  "specials": {
+    "types": [
+      "bomb",
+      "rainbow",
+      "lightning",
+      "fire",
+      "freeze"
+    ],
+    "chance": 0.08
+  },
+  "layout": [
+    ["green","green","purple","purple","purple","purple","purple","red","orange","orange","orange"],
+    ["yellow","stone","yellow","orange","ice:green","chain:green","yellow","ice:purple","yellow","ice:yellow"],
+    [".","yellow","ice:purple","yellow","green","green","stone","ice:purple","locked:green","blue","."],
+    [".","purple","green","green","ice:orange","green","stone","locked:red","stone","."],
+    [".",".","locked:purple","purple","yellow","blue","locked:green","red","yellow",".","."],
+    [".",".","locked:blue","ice:purple","orange","ice:purple","red","stone",".","."],
+    [".",".","purple","stone","yellow","yellow","purple","yellow","chain:yellow",".","."],
+    [".",".","red","blue","chain:yellow","orange","locked:green","orange",".","."],
+    [".",".",".","orange","locked:yellow","blue","blue","blue",".",".","."],
+    [".",".",".","orange","blue","purple","blue",".",".","."]
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": 7,
+  "name": "Minty Fresh",
+  "moves": 31,
+  "targetScore": 1850,
+  "missLimit": 6,
+  "colors": [
+    "green",
+    "yellow",
+    "purple"
+  ],
+  "specials": {
+    "types": [
+      "bomb"
+    ],
+    "chance": 0.09
+  },
+  "layout": [
+    ["green","green","green","purple","purple","purple","purple","yellow","yellow","yellow","green"],
+    [".","green","green","purple","green","yellow","green","yellow","yellow","."],
+    [".",".","green","green","green","yellow","yellow","purple","green",".","."],
+    [".",".","green","yellow","purple","yellow","purple","purple",".","."],
+    [".",".",".","green","green","yellow","yellow","purple",".",".","."]
+  ]
+}

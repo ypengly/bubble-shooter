@@ -1,0 +1,18 @@
+{
+  "id": 5,
+  "name": "Berry Patch",
+  "moves": 31,
+  "targetScore": 1300,
+  "missLimit": 6,
+  "colors": [
+    "purple",
+    "orange",
+    "red"
+  ],
+  "layout": [
+    ["purple","purple","purple","purple","purple","purple","red","red","orange","orange","orange"],
+    [".","purple","red","purple","purple","purple","purple","orange","red","."],
+    [".",".","purple","orange","purple","purple","orange","purple","purple",".","."],
+    [".",".","orange","red","purple","purple","orange","purple",".","."]
+  ]
+}

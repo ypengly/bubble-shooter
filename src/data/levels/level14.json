@@ -1,0 +1,29 @@
+{
+  "id": 14,
+  "name": "Rocky Ridge",
+  "moves": 29,
+  "targetScore": 3800,
+  "missLimit": 5,
+  "colors": [
+    "purple",
+    "orange",
+    "red",
+    "blue"
+  ],
+  "specials": {
+    "types": [
+      "bomb",
+      "rainbow",
+      "lightning"
+    ],
+    "chance": 0.09
+  },
+  "layout": [
+    ["orange","orange","orange","orange","orange","blue","blue","blue","red","red","red"],
+    ["blue","stone","orange","stone","red","red","blue","blue","red","red"],
+    ["red","blue",".",".","red","orange","red",".",".","red","orange"],
+    ["blue","red",".","purple","purple","orange","orange",".","blue","red"],
+    ["blue","red",".",".","orange","orange","orange",".",".","blue","blue"],
+    ["blue","stone",".","orange","orange","blue","orange",".","red","blue"]
+  ]
+}

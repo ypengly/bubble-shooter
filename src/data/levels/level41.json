@@ -1,0 +1,36 @@
+{
+  "id": 41,
+  "name": "Twisted Towers",
+  "moves": 21,
+  "targetScore": 3650,
+  "missLimit": 5,
+  "colors": [
+    "purple",
+    "orange",
+    "red",
+    "blue",
+    "green",
+    "yellow"
+  ],
+  "specials": {
+    "types": [
+      "bomb",
+      "rainbow",
+      "lightning",
+      "fire",
+      "freeze"
+    ],
+    "chance": 0.08
+  },
+  "layout": [
+    ["yellow","red","orange","purple","red","red","orange","orange","orange","orange","orange"],
+    ["yellow","chain:yellow","red","locked:purple","orange","stone","locked:orange","stone","red","chain:orange"],
+    ["yellow","purple",".",".","green","green","ice:purple",".",".","red","orange"],
+    ["yellow","yellow",".","red","locked:purple","purple","locked:purple",".","ice:purple","red"],
+    ["yellow","stone",".",".","stone","green","green",".",".","yellow","blue"],
+    ["green","stone",".","orange","orange","green","green",".","yellow","yellow"],
+    ["purple","chain:purple",".",".","ice:green","red","red",".",".","orange","ice:orange"],
+    ["purple","purple",".","blue","yellow","green","locked:orange",".","purple","locked:yellow"],
+    ["red","yellow",".",".","orange","green","green",".",".","yellow","blue"]
+  ]
+}

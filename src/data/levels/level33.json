@@ -1,0 +1,35 @@
+{
+  "id": 33,
+  "name": "Spark Plug",
+  "moves": 23,
+  "targetScore": 3500,
+  "missLimit": 5,
+  "colors": [
+    "red",
+    "blue",
+    "green",
+    "yellow",
+    "purple",
+    "orange"
+  ],
+  "specials": {
+    "types": [
+      "bomb",
+      "rainbow",
+      "lightning",
+      "fire",
+      "freeze"
+    ],
+    "chance": 0.08
+  },
+  "layout": [
+    ["orange","orange",".",".",".",".",".",".",".","green","orange"],
+    ["purple","chain:orange",".",".",".",".",".",".","green","stone"],
+    ["purple","chain:blue","stone","yellow",".",".",".","blue","ice:blue","green","chain:red"],
+    ["green","stone","blue","red",".",".","ice:blue","orange","green","chain:green"],
+    ["purple","ice:red","ice:green","purple","orange","ice:orange","yellow","blue","locked:red","red","stone"],
+    ["purple","chain:purple","stone","green","blue","blue","green","green","ice:green","green"],
+    ["red","blue","green","locked:blue","blue","orange","green","green","green","red","stone"],
+    ["ice:red","ice:red","stone","blue","locked:red","red","green","blue","blue","red"]
+  ]
+}

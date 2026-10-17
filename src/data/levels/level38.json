@@ -1,0 +1,36 @@
+{
+  "id": 38,
+  "name": "Deep Freeze",
+  "moves": 22,
+  "targetScore": 1700,
+  "missLimit": 5,
+  "colors": [
+    "purple",
+    "orange",
+    "red",
+    "blue",
+    "green",
+    "yellow"
+  ],
+  "specials": {
+    "types": [
+      "bomb",
+      "rainbow",
+      "lightning",
+      "fire",
+      "freeze"
+    ],
+    "chance": 0.08
+  },
+  "layout": [
+    ["orange","orange","orange","yellow","red","red","yellow","orange","yellow","blue","blue"],
+    ["blue","locked:yellow","yellow","yellow","red","ice:yellow","chain:orange","blue","ice:yellow","blue"],
+    ["locked:blue","ice:green","yellow","ice:yellow","ice:red","orange","orange","ice:blue","blue","ice:red","ice:red"],
+    ["chain:orange","ice:purple","yellow","orange","green","green","stone","orange","blue","red"],
+    ["orange","orange","stone","orange","green","chain:green","locked:green","locked:orange","purple","ice:blue","green"],
+    ["red","locked:orange","locked:orange","locked:blue","locked:green","red","orange","purple","blue","stone"],
+    ["yellow","orange","orange","stone","blue","green","blue","ice:purple","ice:orange","blue","orange"],
+    ["ice:green","purple","orange","blue","orange","ice:blue","blue","blue","locked:blue","green"],
+    ["orange","red","blue","chain:blue","stone","red","blue","blue","red","blue","chain:red"]
+  ]
+}

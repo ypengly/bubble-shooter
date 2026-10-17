@@ -1,0 +1,35 @@
+{
+  "id": 31,
+  "name": "Lightning Lane",
+  "moves": 24,
+  "targetScore": 4800,
+  "missLimit": 5,
+  "colors": [
+    "green",
+    "yellow",
+    "purple",
+    "orange",
+    "red",
+    "blue"
+  ],
+  "specials": {
+    "types": [
+      "bomb",
+      "rainbow",
+      "lightning",
+      "fire",
+      "freeze"
+    ],
+    "chance": 0.08
+  },
+  "layout": [
+    ["red","red","red","red","blue","red","orange","orange","red","orange","orange"],
+    ["stone","purple","purple","blue","stone","purple","orange","orange","purple","purple"],
+    ["ice:blue","purple",".",".","purple","green","purple","orange","locked:purple","purple","."],
+    [".",".","red","purple","green","orange","chain:purple","stone",".","."],
+    ["chain:purple","ice:purple","chain:purple","yellow","orange","orange",".",".","orange","orange","locked:yellow"],
+    ["purple","blue","stone","green",".",".","purple","red","purple","orange"],
+    ["ice:orange","purple",".",".","purple","purple","yellow","stone","purple","purple","."],
+    [".",".","green","locked:purple","purple","orange","blue","red",".","."]
+  ]
+}

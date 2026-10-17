@@ -1,0 +1,33 @@
+{
+  "id": 24,
+  "name": "Keymaster",
+  "moves": 26,
+  "targetScore": 7400,
+  "missLimit": 5,
+  "colors": [
+    "red",
+    "blue",
+    "green",
+    "yellow",
+    "purple"
+  ],
+  "specials": {
+    "types": [
+      "bomb",
+      "rainbow",
+      "lightning",
+      "fire",
+      "freeze"
+    ],
+    "chance": 0.08
+  },
+  "layout": [
+    ["purple","purple",".",".",".",".",".",".",".","yellow","yellow"],
+    ["purple","purple",".",".",".",".",".",".","yellow","yellow"],
+    ["green","yellow","yellow","yellow",".",".",".","blue","blue","green","green"],
+    ["green","green","green","stone",".",".","red","yellow","locked:yellow","green"],
+    ["green","green","red","red","red","red","red","red","blue","yellow","red"],
+    ["yellow","ice:red","green","stone","yellow","red","locked:blue","locked:purple","red","ice:red"],
+    ["yellow","yellow","red","purple","purple","stone","ice:blue","purple","red","green","red"]
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": 36,
+  "name": "Blaze Basin",
+  "moves": 22,
+  "targetScore": 1650,
+  "missLimit": 5,
+  "colors": [
+    "red",
+    "blue",
+    "green",
+    "yellow",
+    "purple",
+    "orange"
+  ],
+  "specials": {
+    "types": [
+      "bomb",
+      "rainbow",
+      "lightning",
+      "fire",
+      "freeze"
+    ],
+    "chance": 0.08
+  },
+  "layout": [
+    ["green","green","green","green","green","blue","purple","yellow","purple","purple","purple"],
+    ["green","ice:yellow","chain:yellow","locked:orange","blue","blue","yellow","yellow","blue","stone"],
+    [".","stone","yellow","yellow","purple","yellow","orange","yellow","ice:blue","purple","."],
+    [".","blue","yellow","yellow","stone","green","chain:red","chain:green","green","."],
+    [".",".","stone","yellow","stone","locked:yellow","stone","red","ice:blue",".","."],
+    [".",".","stone","purple","locked:blue","ice:yellow","yellow","ice:green",".","."],
+    [".",".",".","blue","yellow","locked:yellow","yellow","yellow",".",".","."],
+    [".",".",".","blue","purple","locked:green","green",".",".","."],
+    [".",".",".","locked:blue","green","orange","yellow","ice:red",".",".","."]
+  ]
+}

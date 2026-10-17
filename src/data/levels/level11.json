@@ -1,0 +1,27 @@
+{
+  "id": 11,
+  "name": "Stone Garden",
+  "moves": 29,
+  "targetScore": 3450,
+  "missLimit": 5,
+  "colors": [
+    "purple",
+    "orange",
+    "red",
+    "blue"
+  ],
+  "specials": {
+    "types": [
+      "bomb",
+      "rainbow"
+    ],
+    "chance": 0.09
+  },
+  "layout": [
+    ["blue","red","red","red","red","blue","purple","purple","purple","red","red"],
+    ["blue","blue","orange","red","red","blue","purple","purple","red","red"],
+    ["orange","stone",".",".","stone","orange","orange","orange","purple","red","."],
+    [".",".","purple","blue","orange","blue","orange","blue",".","."],
+    ["orange","orange","orange","stone","orange","blue",".",".","blue","purple","purple"]
+  ]
+}

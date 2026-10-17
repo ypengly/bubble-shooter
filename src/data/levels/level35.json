@@ -1,0 +1,35 @@
+{
+  "id": 35,
+  "name": "Ember Edge",
+  "moves": 23,
+  "targetScore": 4850,
+  "missLimit": 5,
+  "colors": [
+    "purple",
+    "orange",
+    "red",
+    "blue",
+    "green"
+  ],
+  "specials": {
+    "types": [
+      "bomb",
+      "rainbow",
+      "lightning",
+      "fire",
+      "freeze"
+    ],
+    "chance": 0.08
+  },
+  "layout": [
+    ["green","green",".",".",".",".",".",".",".","green","red"],
+    ["red","red",".",".",".",".",".",".","locked:green","red"],
+    ["ice:purple","chain:red","stone","locked:purple",".",".",".","blue","chain:red","green","green"],
+    ["green","purple","blue","ice:blue",".",".","orange","blue","ice:blue","orange"],
+    ["green","stone","purple","purple","ice:orange","locked:orange","locked:purple","orange","purple","locked:orange","orange"],
+    ["stone","green","green","orange","orange","purple","orange","orange","ice:orange","orange"],
+    ["red","ice:green","blue","ice:orange","green","ice:blue","orange","orange","stone","orange","orange"],
+    ["green","green","ice:blue","blue","blue","locked:blue","blue","red","orange","orange"],
+    ["orange","blue","locked:green","orange","ice:purple","locked:red","chain:red","stone","orange","green","orange"]
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": 2,
+  "name": "Bubble Beach",
+  "moves": 32,
+  "targetScore": 1750,
+  "missLimit": 6,
+  "colors": [
+    "purple",
+    "orange",
+    "red"
+  ],
+  "layout": [
+    ["orange","purple","purple","red","red","orange","red","red","red","purple","orange"],
+    ["orange","orange","purple","purple","orange","purple","purple","purple","red","purple"],
+    ["orange","orange","orange","orange","orange","red","purple","purple","red","purple","purple"],
+    ["orange","orange","orange","red","red","red","purple","purple","red","purple"]
+  ]
+}

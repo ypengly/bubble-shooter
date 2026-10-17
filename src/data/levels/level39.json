@@ -1,0 +1,36 @@
+{
+  "id": 39,
+  "name": "Aurora Ice",
+  "moves": 22,
+  "targetScore": 3700,
+  "missLimit": 5,
+  "colors": [
+    "red",
+    "blue",
+    "green",
+    "yellow",
+    "purple",
+    "orange"
+  ],
+  "specials": {
+    "types": [
+      "bomb",
+      "rainbow",
+      "lightning",
+      "fire",
+      "freeze"
+    ],
+    "chance": 0.08
+  },
+  "layout": [
+    [".",".",".","purple","green","green","green","green",".",".","."],
+    [".","stone","purple","red","blue","yellow","green","green","locked:red","."],
+    ["purple","chain:orange","green","orange","green","chain:yellow","orange","red","chain:yellow","chain:red","red"],
+    ["purple","green","chain:orange","locked:red","stone","chain:orange","purple","ice:red","red","red"],
+    ["red","green","yellow","red","stone","green","purple","purple","orange","purple","stone"],
+    ["red","chain:red","purple","stone","orange","orange","locked:orange","green","locked:green","chain:red"],
+    ["blue","green","ice:orange","orange","orange","locked:orange","orange","green","purple","green","ice:green"],
+    [".","stone","ice:orange","ice:orange","purple","purple","orange","ice:purple","green","."],
+    [".",".",".","yellow","yellow","locked:yellow","orange","orange",".",".","."]
+  ]
+}

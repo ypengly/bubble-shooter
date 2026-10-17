@@ -1,0 +1,37 @@
+{
+  "id": 50,
+  "name": "Grand Finale",
+  "moves": 18,
+  "targetScore": 1500,
+  "missLimit": 5,
+  "colors": [
+    "purple",
+    "orange",
+    "red",
+    "blue",
+    "green",
+    "yellow"
+  ],
+  "specials": {
+    "types": [
+      "bomb",
+      "rainbow",
+      "lightning",
+      "fire",
+      "freeze"
+    ],
+    "chance": 0.08
+  },
+  "layout": [
+    [".",".",".","red","purple","red","purple","blue",".",".","."],
+    [".","blue","red","locked:red","yellow","orange","ice:purple","blue","ice:blue","."],
+    ["green","green","yellow","orange","purple","blue","red","purple","ice:purple","chain:yellow","locked:blue"],
+    ["green","chain:purple","ice:red","ice:orange","orange","orange","locked:yellow","green","locked:green","blue"],
+    ["green","ice:green","ice:blue","purple","ice:orange","locked:orange","blue","blue","locked:orange","chain:purple","locked:purple"],
+    ["green","blue","ice:purple","stone","chain:purple","ice:blue","orange","orange","blue","blue"],
+    ["blue","green","locked:blue","stone","chain:red","chain:red","chain:red","ice:blue","red","ice:green","yellow"],
+    ["chain:blue","stone","blue","blue","stone","locked:orange","blue","orange","chain:red","stone"],
+    [".","blue","orange","ice:blue","blue","blue","orange","ice:red","stone","green","."],
+    [".",".","red","purple","yellow","yellow","stone","orange",".","."]
+  ]
+}

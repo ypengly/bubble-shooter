@@ -1,0 +1,35 @@
+{
+  "id": 30,
+  "name": "Breakout",
+  "moves": 24,
+  "targetScore": 3750,
+  "missLimit": 5,
+  "colors": [
+    "red",
+    "blue",
+    "green",
+    "yellow",
+    "purple",
+    "orange"
+  ],
+  "specials": {
+    "types": [
+      "bomb",
+      "rainbow",
+      "lightning",
+      "fire",
+      "freeze"
+    ],
+    "chance": 0.08
+  },
+  "layout": [
+    [".",".",".","yellow","yellow","blue","blue","blue",".",".","."],
+    [".","orange","stone","purple","red","blue","blue","purple","ice:purple","."],
+    ["chain:green","ice:green","blue","blue","blue","purple","ice:yellow","blue","purple","green","green"],
+    ["green","red","stone","yellow","stone","blue","yellow","yellow","red","green"],
+    ["green","red","locked:green","orange","yellow","stone","red","chain:yellow","purple","green","green"],
+    ["ice:red","chain:green","blue","ice:yellow","blue","ice:purple","purple","locked:purple","purple","purple"],
+    [".","locked:green","green","ice:green","locked:green","orange","ice:blue","ice:purple","red","red","."],
+    [".",".","stone","green","red","stone","blue","red",".","."]
+  ]
+}

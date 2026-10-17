@@ -1,0 +1,27 @@
+{
+  "id": 9,
+  "name": "Rainbow Road",
+  "moves": 30,
+  "targetScore": 2900,
+  "missLimit": 5,
+  "colors": [
+    "red",
+    "blue",
+    "green",
+    "yellow"
+  ],
+  "specials": {
+    "types": [
+      "bomb",
+      "rainbow"
+    ],
+    "chance": 0.09
+  },
+  "layout": [
+    ["yellow","yellow","yellow","yellow","yellow","green","blue","blue","red","red","red"],
+    ["yellow","yellow","yellow","blue","green","green","green","blue","red","red"],
+    ["green","red","yellow","red","green","red","blue","green","green","red","yellow"],
+    ["red","red","red","red","green","green","yellow","blue","blue","red"],
+    ["yellow","red","yellow","red","blue","blue","yellow","red","red","blue","green"]
+  ]
+}

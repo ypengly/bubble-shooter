@@ -1,0 +1,35 @@
+{
+  "id": 32,
+  "name": "Thunder Bay",
+  "moves": 24,
+  "targetScore": 4000,
+  "missLimit": 5,
+  "colors": [
+    "purple",
+    "orange",
+    "red",
+    "blue",
+    "green",
+    "yellow"
+  ],
+  "specials": {
+    "types": [
+      "bomb",
+      "rainbow",
+      "lightning",
+      "fire",
+      "freeze"
+    ],
+    "chance": 0.08
+  },
+  "layout": [
+    ["red","red","red","red","green","green","purple","purple","yellow","yellow","yellow"],
+    ["orange","stone","locked:red","purple","green","green","purple","orange","purple","green"],
+    ["red","stone",".",".","green","chain:green","green",".",".","red","red"],
+    ["orange","chain:orange",".","green","orange","yellow","chain:yellow",".","orange","green"],
+    ["ice:green","locked:green",".",".","locked:orange","blue","yellow",".",".","orange","green"],
+    ["green","red",".","locked:purple","purple","blue","locked:purple",".","blue","blue"],
+    ["purple","ice:purple",".",".","red","red","stone",".",".","locked:orange","yellow"],
+    ["locked:purple","orange",".","locked:green","red","locked:red","ice:red",".","orange","orange"]
+  ]
+}

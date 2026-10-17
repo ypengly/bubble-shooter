@@ -1,0 +1,27 @@
+{
+  "id": 12,
+  "name": "Pebble Path",
+  "moves": 29,
+  "targetScore": 2100,
+  "missLimit": 5,
+  "colors": [
+    "red",
+    "blue",
+    "green",
+    "yellow"
+  ],
+  "specials": {
+    "types": [
+      "bomb",
+      "rainbow"
+    ],
+    "chance": 0.09
+  },
+  "layout": [
+    ["yellow","green","green","red","green","green","green","green","green","green","green"],
+    ["stone","green","stone","red","red","green","green","red","green","green"],
+    ["blue","blue",".",".","red","yellow","green",".",".","green","green"],
+    ["green","green",".","red","red","red","stone",".","green","green"],
+    ["blue","green",".",".","red","red","red",".",".","green","green"]
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": 49,
+  "name": "Champion's Climb",
+  "moves": 19,
+  "targetScore": 5300,
+  "missLimit": 5,
+  "colors": [
+    "green",
+    "yellow",
+    "purple",
+    "orange",
+    "red"
+  ],
+  "specials": {
+    "types": [
+      "bomb",
+      "rainbow",
+      "lightning",
+      "fire",
+      "freeze"
+    ],
+    "chance": 0.08
+  },
+  "layout": [
+    ["purple","purple","purple","orange","green","yellow","yellow","green","purple","purple","purple"],
+    ["yellow","ice:red","stone","orange","yellow","stone","locked:green","red","purple","orange"],
+    ["chain:yellow","stone","purple","purple","yellow","yellow","yellow","yellow","purple","yellow","stone"],
+    ["locked:yellow","yellow","purple","red","red","green","purple","purple","orange","ice:yellow"],
+    ["stone","stone","yellow","green","green","ice:red","purple","green","purple","ice:purple","ice:purple"],
+    ["yellow","chain:orange","orange","locked:green","red","green","chain:green","stone","purple","orange"],
+    ["chain:orange","chain:orange","orange","orange","green","green","green","ice:orange","purple","yellow","red"],
+    ["stone","green","locked:orange","orange","purple","orange","purple","purple","purple","ice:purple"],
+    ["yellow","locked:purple","orange","orange","yellow","red","red","red","red","stone","orange"],
+    ["purple","locked:purple","orange","yellow","chain:red","red","chain:red","chain:green","ice:green","green"]
+  ]
+}

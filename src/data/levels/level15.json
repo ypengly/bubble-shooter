@@ -1,0 +1,30 @@
+{
+  "id": 15,
+  "name": "Granite Gate",
+  "moves": 28,
+  "targetScore": 3450,
+  "missLimit": 5,
+  "colors": [
+    "red",
+    "blue",
+    "green",
+    "yellow",
+    "purple"
+  ],
+  "specials": {
+    "types": [
+      "bomb",
+      "rainbow",
+      "lightning"
+    ],
+    "chance": 0.09
+  },
+  "layout": [
+    ["purple","green",".",".",".",".",".",".",".","red","red"],
+    ["blue","blue",".",".",".",".",".",".","red","purple"],
+    ["blue","stone","blue","purple",".",".",".","blue","purple","green","yellow"],
+    ["blue","stone","blue","purple",".",".","blue","purple","stone","yellow"],
+    ["yellow","yellow","red","blue","yellow","yellow","blue","purple","red","yellow","red"],
+    ["green","red","red","purple","purple","yellow","green","yellow","blue","green"]
+  ]
+}

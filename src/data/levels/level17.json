@@ -1,0 +1,30 @@
+{
+  "id": 17,
+  "name": "Icicle Alley",
+  "moves": 28,
+  "targetScore": 2500,
+  "missLimit": 5,
+  "colors": [
+    "purple",
+    "orange",
+    "red",
+    "blue",
+    "green"
+  ],
+  "specials": {
+    "types": [
+      "bomb",
+      "rainbow",
+      "lightning"
+    ],
+    "chance": 0.09
+  },
+  "layout": [
+    [".","blue","blue","blue","blue","red","red","orange","orange","blue","."],
+    [".",".","blue","purple","blue","green","orange","ice:orange",".","."],
+    [".",".",".","ice:blue","blue","stone","blue","orange",".",".","."],
+    [".",".",".","purple","red","stone","orange",".",".","."],
+    [".",".","ice:orange","orange","blue","purple","orange","purple","purple",".","."],
+    ["red","green","orange","red","purple","purple","blue","blue","green","stone"]
+  ]
+}

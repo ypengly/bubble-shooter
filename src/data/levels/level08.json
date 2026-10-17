@@ -1,0 +1,26 @@
+{
+  "id": 8,
+  "name": "Candy Cove",
+  "moves": 30,
+  "targetScore": 1600,
+  "missLimit": 6,
+  "colors": [
+    "purple",
+    "orange",
+    "red",
+    "blue"
+  ],
+  "specials": {
+    "types": [
+      "bomb"
+    ],
+    "chance": 0.09
+  },
+  "layout": [
+    [".","purple","purple","purple","purple","purple","purple","red","blue","blue","."],
+    [".",".","purple","red","red","orange","orange","blue",".","."],
+    [".",".",".",".","red","red","red",".",".",".","."],
+    [".",".","orange","orange","red","orange","red","orange",".","."],
+    [".","blue","orange","red","orange","red","red","red","orange","orange","."]
+  ]
+}

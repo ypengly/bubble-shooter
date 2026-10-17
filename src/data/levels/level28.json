@@ -1,0 +1,34 @@
+{
+  "id": 28,
+  "name": "Rattle Row",
+  "moves": 25,
+  "targetScore": 4800,
+  "missLimit": 5,
+  "colors": [
+    "green",
+    "yellow",
+    "purple",
+    "orange",
+    "red"
+  ],
+  "specials": {
+    "types": [
+      "bomb",
+      "rainbow",
+      "lightning",
+      "fire",
+      "freeze"
+    ],
+    "chance": 0.08
+  },
+  "layout": [
+    ["green","green","orange","orange","orange","yellow","yellow","purple","yellow","green","green"],
+    ["ice:orange","yellow","orange","orange","locked:orange","orange","yellow","purple","yellow","green"],
+    [".",".","orange","chain:orange","red","chain:orange","red","stone","green",".","."],
+    [".",".",".","red","red","red","ice:orange",".",".","."],
+    [".",".",".","red","stone","orange","ice:orange","orange",".",".","."],
+    [".",".","locked:purple","red","red","ice:orange","orange","orange",".","."],
+    [".","stone","green","red","locked:green","red","orange","purple","stone","green","."],
+    ["red","ice:red","red","red","purple","chain:purple","ice:purple","orange","orange","locked:yellow"]
+  ]
+}

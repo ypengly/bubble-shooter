@@ -1,0 +1,36 @@
+{
+  "id": 37,
+  "name": "Inferno Inlet",
+  "moves": 22,
+  "targetScore": 3900,
+  "missLimit": 5,
+  "colors": [
+    "green",
+    "yellow",
+    "purple",
+    "orange",
+    "red",
+    "blue"
+  ],
+  "specials": {
+    "types": [
+      "bomb",
+      "rainbow",
+      "lightning",
+      "fire",
+      "freeze"
+    ],
+    "chance": 0.08
+  },
+  "layout": [
+    ["purple","purple","purple","purple","blue","blue","blue","red","red","green","green"],
+    ["purple","ice:blue","stone","blue","stone","locked:blue","yellow","chain:red","stone","blue"],
+    [".","purple","purple","purple","green","locked:blue","red","stone","ice:red","orange","."],
+    [".",".","blue","stone","yellow","yellow","red","red",".","."],
+    [".",".",".",".","blue","blue","blue",".",".",".","."],
+    [".",".","yellow","green","locked:green","stone","purple","purple",".","."],
+    [".","orange","yellow","yellow","green","locked:green","ice:blue","ice:purple","purple","orange","."],
+    ["chain:yellow","orange","purple","orange","stone","blue","chain:orange","locked:orange","blue","purple"],
+    ["green","orange","chain:green","locked:blue","orange","blue","ice:yellow","orange","orange","ice:orange","green"]
+  ]
+}

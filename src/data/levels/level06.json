@@ -1,0 +1,25 @@
+{
+  "id": 6,
+  "name": "Pop Parade",
+  "moves": 31,
+  "targetScore": 700,
+  "missLimit": 6,
+  "colors": [
+    "red",
+    "blue",
+    "green",
+    "yellow"
+  ],
+  "specials": {
+    "types": [
+      "bomb"
+    ],
+    "chance": 0.09
+  },
+  "layout": [
+    [".",".","red","red","red","red","red","red","red",".","."],
+    [".",".",".","green","yellow","red","red",".",".","."],
+    [".",".",".","green","yellow","blue","red","yellow",".",".","."],
+    [".",".","red","red","red","green","blue","green",".","."]
+  ]
+}

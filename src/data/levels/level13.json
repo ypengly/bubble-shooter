@@ -1,0 +1,28 @@
+{
+  "id": 13,
+  "name": "Quarry Quest",
+  "moves": 29,
+  "targetScore": 1850,
+  "missLimit": 5,
+  "colors": [
+    "green",
+    "yellow",
+    "purple",
+    "orange",
+    "red"
+  ],
+  "specials": {
+    "types": [
+      "bomb",
+      "rainbow"
+    ],
+    "chance": 0.09
+  },
+  "layout": [
+    ["green","red",".",".",".",".",".",".",".","green","green"],
+    ["stone","red",".",".",".",".",".",".","green","stone"],
+    ["red","red","green","orange",".",".",".","purple","purple","green","green"],
+    ["red","red","purple","purple",".",".","purple","purple","stone","purple"],
+    ["purple","red","red","green","green","green","yellow","purple","purple","purple","orange"]
+  ]
+}
